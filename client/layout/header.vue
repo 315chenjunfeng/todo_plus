@@ -1,17 +1,17 @@
 <template>
-    <header class="main-header">
+    <header :class="$style.mainHeader">
         <h1>CTodo</h1>
     </header>
 </template>
 
-<style lang="stylus" scoped>
+<style module>
     .main-header{
-        text-align center
-        h1{
-            font-size 100px
-            color white
-            font-weight 100
-            margin 20px
-        }
+        text-align: center;
+    }
+    .main-header>h1{
+        font-size: 100px;
+        color: white;
+        font-weight: 100;
+        margin: 20px;
     }
 </style>
